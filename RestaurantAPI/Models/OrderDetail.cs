@@ -12,8 +12,6 @@ namespace RestaurantAPI.Models
         public int OrderDetailId { get; set; }
 
         public long OrderMasterId { get; set; }
-        public OrderMaster orderMaster { get; set; }
-
         public int FoodItemId { get; set; }
         public FoodItem foodItem { get; set; }
 

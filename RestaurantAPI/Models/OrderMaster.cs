@@ -21,5 +21,7 @@ namespace RestaurantAPI.Models
         public string PMethod { get; set; }
 
         public decimal GTotal { get; set; }
+
+        public List<OrderDetail> OrderDetails { get; set; }
     }
 }

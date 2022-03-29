@@ -8,9 +8,11 @@ namespace RestaurantAPI.Models
 {
     public class RestaurantDBContext: DbContext 
     {
+        private object modelBuilder;
+
         public RestaurantDBContext(DbContextOptions<RestaurantDBContext> options):base(options)
         {
-
+           
         }
 
         public DbSet<Customer> Customers { get; set; }

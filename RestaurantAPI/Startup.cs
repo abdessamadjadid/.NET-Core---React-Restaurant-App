@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RestaurantAPI.Models;
+using System;
+using System.Configuration;
 
 namespace RestaurantAPI
 {
@@ -22,8 +24,9 @@ namespace RestaurantAPI
         {
             services.AddRazorPages();
 
+            var connectionString = Configuration.GetConnectionString("DevConnection");
             services.AddDbContext<RestaurantDBContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
+                        options.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 1, 40))));
 
         }
 

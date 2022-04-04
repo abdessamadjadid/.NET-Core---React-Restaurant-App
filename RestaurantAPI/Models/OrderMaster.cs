@@ -16,6 +16,7 @@ namespace RestaurantAPI.Models
         [Column(TypeName = "nvarchar(75)")]
         public string OrderNumber { get; set; }
         public int CustomerId { get; set; }
+
         public Customer customer { get; set; }
 
         [Column(TypeName = "nvarchar(10)")]

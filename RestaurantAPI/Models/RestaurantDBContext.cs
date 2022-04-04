@@ -8,9 +8,15 @@ namespace RestaurantAPI.Models
 {
     public class RestaurantDBContext: DbContext 
     {
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Customer>()
+                .HasKey(c => new { c.CustomerId });
+        }
+
         public RestaurantDBContext(DbContextOptions<RestaurantDBContext> options):base(options)
         {
-
+           
         }
 
         public DbSet<Customer> Customers { get; set; }

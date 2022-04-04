@@ -10,7 +10,7 @@ namespace RestaurantAPI.Models
     public class Customer
     {
         [Key]
-        private int CustomerId { get; set; }
+        public int CustomerId { get; set; }
 
         [Column(TypeName = "nvarchar(10)")]
         public string CustomerName { get; set; }

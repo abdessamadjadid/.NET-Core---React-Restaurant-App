@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -15,6 +16,7 @@ namespace RestaurantAPI.Models
         [Column(TypeName = "nvarchar(75)")]
         public string OrderNumber { get; set; }
         public int CustomerId { get; set; }
+
         public Customer customer { get; set; }
 
         [Column(TypeName = "nvarchar(10)")]

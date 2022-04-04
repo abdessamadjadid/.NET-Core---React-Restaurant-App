@@ -78,3 +78,12 @@ C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\Restau
 C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\obj\Debug\netcoreapp3.1\RestaurantAPI.dll
 C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\obj\Debug\netcoreapp3.1\RestaurantAPI.pdb
 C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\obj\Debug\netcoreapp3.1\RestaurantAPI.genruntimeconfig.cache
+C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\Abdessamad\Desktop\.NET Core- React Restaurant App\RestaurantAPI\RestaurantAPI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
